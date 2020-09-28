@@ -25,7 +25,7 @@ shown in console.
 1. Path of config.txt file need to be declared under "fileDir" variable in Initialize class
 
 ## HOW TO add a new test case into the TestSuite:
-_Let's say, the user want to add a test case called "Test4 into TestFWK**
+_Let's say, the user want to add a test case called "Test4" into TestFWK_
 1. Add Test4 under "TC_Names" in config.txt
 1. In TestSuite.cs under AddTestCases function, add another switch condition
 		case "Test4":
